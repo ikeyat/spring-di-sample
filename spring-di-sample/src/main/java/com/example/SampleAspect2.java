@@ -8,7 +8,7 @@ import org.springframework.core.annotation.Order;
  * Created by ikeya on 15/11/15.
  */
 @Aspect
-@Order(1)
+// @Order(0)
 public class SampleAspect2 {
 
     @Pointcut("execution(* com.example.SampleBean.*(..))")

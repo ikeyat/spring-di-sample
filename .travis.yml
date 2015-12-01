@@ -1,0 +1,6 @@
+language: java
+script:
+  - cd spring-di-sample
+  - mvn test
+
+
